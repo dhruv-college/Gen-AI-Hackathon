@@ -1,18 +1,71 @@
-# Welcome to your Lovable project
+# 🎨 Artisan Hub – AI-Powered Marketplace for Local Artisans  
 
-## Project info
+> **Empowering Indian artisans with AI-driven visibility and storytelling.**  
+> Built for the **Google Gen AI Hackathon 2025** under the theme:  
+> **“AI-Powered Marketplace Assistance for Local Artisans.”**
 
-**URL**: https://lovable.dev/projects/0876a0fc-f3b1-42e8-98c0-b5efc9168632
+---
 
-## How can I edit this code?
+## 🌟 Overview  
 
-There are several ways of editing your application.
+**Artisan Hub** is an intelligent marketplace that helps local artisans showcase their handcrafted work online — like a “LinkedIn for Artisans.”  
+With a simple mobile-friendly interface, artisans can upload photos of their creations, and the AI automatically generates **descriptions, tags, and translations** to make their products discoverable worldwide.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0876a0fc-f3b1-42e8-98c0-b5efc9168632) and start prompting.
+## 🚀 Features  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🧭 Core Features
+- 🔐 Simple **Sign In / Sign Up** (frontend-only demo)
+- 🌐 **Multi-language support** (English + Tamil prototype)
+- 👤 **Profile setup** for artisans (name, location, craft type, about)
+- 🖼️ **AI-powered description & tag generation** from product photos
+- 🏠 **Personal dashboard** for artisans to manage their work
+- 🛍️ **Marketplace view** for buyers to explore artisan profiles and crafts
+- 💬 **Smart AI translations** powered by Google Vertex AI
+
+### 🧠 AI & Smart Assistance
+- 📸 **Auto Tag Generator:** Uses image input to generate tags & captions  
+- 🌏 **Language Translation:** Uses Google’s Translation API via Vertex AI  
+- 🔍 **Craft Discovery:** Semantic search suggestions for users browsing crafts
+
+---
+
+## 🧰 Tech Stack  
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React + TypeScript + Vite |
+| **Styling** | Tailwind CSS + ShadCN UI + Lucide Icons |
+| **AI & APIs** | Google Vertex AI (Text & Vision Models), Google Cloud Translation API |
+| **State & Data** | React Query + Context |
+| **Backend (Future)** | Firebase / Supabase (for auth, profiles & image storage) |
+| **Deployment** | Vercel |
+| **Version Control** | Git + GitHub |
+
+---
+
+## 🧠 Google APIs & Gen AI Integration Plan  
+
+| Use Case | Google Service | Description |
+|-----------|----------------|-------------|
+| 🖼️ **Craft Image Understanding** | Vertex AI Vision API | Analyze uploaded craft images to generate descriptive tags & categories. |
+| ✍️ **Auto Description Generation** | Vertex AI Text Model (Gemini) | Create creative, SEO-friendly descriptions for each artisan’s craft. |
+| 🌏 **Language Translation** | Google Cloud Translation API | Translate artisan bios and product info into regional languages (Tamil prototype). |
+| 🔎 **Recommendation Engine** | Vertex AI Matching Engine | Suggest similar artisans or related crafts to buyers. |
+
+> For the hackathon demo, the AI responses are simulated using static data and mock JSON,  
+> but the structure supports seamless integration with Vertex AI endpoints.  
+
+---
+
+## 🖼️ UI Highlights  
+
+- 🎨 Elegant warm color palette inspired by Indian craft tones.  
+- 💫 Smooth animations, shadows, and gradients for modern appeal.  
+- 📱 Fully responsive layout optimized for mobile and desktop.  
+
+---
 
 **Use your preferred IDE**
 
@@ -36,20 +89,6 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
 ## What technologies are used for this project?
 
 This project is built with:
@@ -60,18 +99,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0876a0fc-f3b1-42e8-98c0-b5efc9168632) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
+## File Structure 
 ```
 ahv2
 ├─ .firebaserc
